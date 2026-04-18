@@ -33,35 +33,119 @@ body {
   font-family: old-typewriter;
 }
 
-/* Main section */
-.second {
-  text-align: center;
-  background-color: #e3eef8;
-  padding: 50px 20px;
-}
-
 .bt1 {
-  padding: 10px 20px;
-  font-size: 16px;
-  margin: 15px 0;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 20px;
+  background-color: #e39a5b;
   cursor: pointer;
-  background-color: rgb(221, 77, 11);
 }
 
-.head1 {
-  margin-top: 20px;
+.bt1:hover {
+  background-color: #b97e4b;
 }
 
-.mpara {
-  max-width: 600px;
-  margin: 0 auto;
+.main {
+  background-color: #9ea6ad;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+/* ESTD line */
+.estd {
+  letter-spacing: 6px;
+  margin-bottom: 20px;
+}
+
+.estd span {
+  margin-left: 20px;
+}
+
+/* Center logo */
+.center-logo {
+  width: 150px;
+  margin: 20px 0;
+}
+
+/* Main title */
+.main-title {
+  font-size: 60px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+/* Subtitle */
+.sub-title {
+  letter-spacing: 6px;
+  margin: 0;
+  font-weight: normal;
+}
+
+/* Tagline */
+.tagline {
+  margin-top: 40px;
+  font-size: 22px;
+  letter-spacing: 4px;
+}
+
+/* Description */
+.desc {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.third {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e7e2d3;
+  padding: 60px;
+}
+
+/* LEFT SIDE */
+.left {
+  max-width: 50%;
+}
+
+.big-text {
+  font-size: 48px;
+  letter-spacing: 6px;
+  color: #aeb6bb;
+  margin-bottom: 20px;
+}
+
+.book-desc {
+  max-width: 500px;
   line-height: 1.6;
+  margin-bottom: 15px;
 }
+
+/* RIGHT SIDE */
+.right {
+  text-align: center;
+}
+
+.book-img {
+  width: 250px;
+  margin-bottom: 20px;
+}
+
+/* BUTTONS */
+.buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
 @font-face {
   font-family: typewriter;
-  src: url(./fonts/Truetypewriter-PolyglOTT/TTWPGOTT.ttf);
+  src: url(./fonts/TTWPGOTT.ttf);
 }
 @font-face {
   font-family: old-typewriter;
-  src: url(./fonts/lumios-typewriter-font/Lumios_Typewriter_Old.otf);
+  src: url(./fonts/Lumios_Typewriter_Old.otf);
+}
+@font-face {
+  font-family: codex;
+  src: url(./fonts/Codex\ LT\ Regular.ttf);
 }
