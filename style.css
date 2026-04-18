@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: serif;
+}
+
+/* Top header */
+.first {
+  display: flex;
+  align-items: center;
+  background-color: #e7e2d3;
+  padding: 20px;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainlogo {
+  width: 120px;
+  height: 120px;
+  margin-right: 20px;
+}
+
+.title h1 {
+  margin: 0;
+  font-size: 40px;
+  font-family: typewriter;
+}
+
+.title h4 {
+  margin: 0;
+  letter-spacing: 4px;
+  font-family: old-typewriter;
+}
+
+/* Main section */
+.second {
+  text-align: center;
+  background-color: #e3eef8;
+  padding: 50px 20px;
+}
+
+.bt1 {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 15px 0;
+  cursor: pointer;
+  background-color: rgb(221, 77, 11);
+}
+
+.head1 {
+  margin-top: 20px;
+}
+
+.mpara {
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+@font-face {
+  font-family: typewriter;
+  src: url(./fonts/Truetypewriter-PolyglOTT/TTWPGOTT.ttf);
+}
+@font-face {
+  font-family: old-typewriter;
+  src: url(./fonts/lumios-typewriter-font/Lumios_Typewriter_Old.otf);
+}
