@@ -34,7 +34,7 @@ body {
 }
 
 .bt1 {
-  padding: 10px 25px;
+  padding: 20px 45px;
   border: none;
   border-radius: 20px;
   background-color: #e39a5b;
@@ -126,15 +126,17 @@ body {
 }
 
 .book-img {
-  width: 250px;
+  width: 400px;
   margin-bottom: 20px;
+  margin-right: 50px;
 }
 
 /* BUTTONS */
 .buttons {
   display: flex;
-  gap: 15px;
+  gap: 25px;
   justify-content: center;
+  margin-right: 50px;
 }
 
 @font-face {
