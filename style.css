@@ -1,42 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: serif;
 }
 
-/* Top header */
-.first {
-  display: flex;
-  align-items: center;
-  background-color: #e7e2d3;
-  padding: 20px;
-}
-.title {
-  display: flex;
-  flex-direction: column;
-}
-
-.mainlogo {
-  width: 120px;
-  height: 120px;
-  margin-right: 20px;
-}
-
-.title h1 {
-  margin: 0;
-  font-size: 40px;
-  font-family: typewriter;
-}
-
-.title h4 {
-  margin: 0;
-  letter-spacing: 4px;
-  font-family: old-typewriter;
-}
 
 .bt1 {
   padding: 20px 45px;
   border: none;
-  border-radius: 20px;
+  border-radius: 40px;
   background-color: #e39a5b;
   cursor: pointer;
 }
@@ -63,15 +38,19 @@ body {
 
 /* Center logo */
 .center-logo {
-  width: 150px;
-  margin: 20px 0;
+  width: 500px;
+  margin: 20px auto;   
+  display: block;     
 }
-
+.insta{
+  width: 50px;
+}
 /* Main title */
 .main-title {
   font-size: 60px;
   margin: 10px 0;
   font-weight: bold;
+  font-family: typewriter;
 }
 
 /* Subtitle */
@@ -79,6 +58,7 @@ body {
   letter-spacing: 6px;
   margin: 0;
   font-weight: normal;
+  font-family: typewriter;
 }
 
 /* Tagline */
@@ -86,12 +66,14 @@ body {
   margin-top: 40px;
   font-size: 22px;
   letter-spacing: 4px;
+  font-family: old-typewriter;
 }
 
 /* Description */
 .desc {
   margin-top: 10px;
   font-size: 16px;
+  font-family: old-typewriter;
 }
 
 .third {
@@ -112,12 +94,14 @@ body {
   letter-spacing: 6px;
   color: #aeb6bb;
   margin-bottom: 20px;
+  font-family: codex ;
 }
 
 .book-desc {
   max-width: 500px;
   line-height: 1.6;
   margin-bottom: 15px;
+  font-size: 20px;
 }
 
 /* RIGHT SIDE */
@@ -137,6 +121,69 @@ body {
   gap: 25px;
   justify-content: center;
   margin-right: 50px;
+}
+.reviews {
+  background-color: #e7e2d3;
+  padding: 60px;
+}
+
+.review-title {
+  font-size: 40px;
+  letter-spacing: 6px;
+  margin-bottom: 40px;
+  font-family: codex;
+}
+
+.review-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.review-box {
+  width: 30%;
+  position: relative;
+}
+
+.quote {
+  margin: 0px;
+  font-size: 60px;
+  color: #bfc5c9;
+  
+}
+
+.review-box p {
+  line-height: 1.6;
+}
+
+.review-btn {
+  margin-top: 15px;
+  padding: 8px 20px;
+  border-radius: 20px;
+  border: 1px solid #0b3c3c;
+  background-color: #bfc5c9;
+  cursor: pointer;
+}
+.contact {
+  background-color: #0b3c3c;
+  color: white;
+  padding: 40px;
+}
+
+.contact-title {
+  font-size: 40px;
+  letter-spacing: 6px;
+  margin-bottom: 40px;
+  font-family: typewriter;
+}
+
+.contact-info {
+  line-height: 2;
+}
+
+.label {
+  font-weight: bold;
+  margin-top: 20px;
 }
 
 @font-face {

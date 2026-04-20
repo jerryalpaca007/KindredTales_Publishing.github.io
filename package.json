@@ -1,0 +1,15 @@
+{
+  "name": "website-publishing-house",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.5",
+    "vite": "^5.4.1"
+  }
+}
