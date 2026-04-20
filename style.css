@@ -14,10 +14,14 @@ body {
   border-radius: 40px;
   background-color: #e39a5b;
   cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  border: #000000 solid 2px;
 }
 
 .bt1:hover {
   background-color: #b97e4b;
+
 }
 
 .main {
@@ -90,8 +94,9 @@ body {
 }
 
 .big-text {
-  font-size: 48px;
+  font-size: 56px;
   letter-spacing: 6px;
+  font-style: bold;
   color: #aeb6bb;
   margin-bottom: 20px;
   font-family: codex ;
@@ -138,11 +143,16 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 30px;
+  border-radius: 8px;
+  padding: 20px;
+  font-size: 20px;
 }
 
 .review-box {
   width: 30%;
   position: relative;
+
+  padding: 30px;
 }
 
 .quote {
@@ -163,6 +173,7 @@ body {
   border: 1px solid #0b3c3c;
   background-color: #bfc5c9;
   cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
 }
 .contact {
   background-color: #0b3c3c;
